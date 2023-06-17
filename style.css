@@ -1,0 +1,80 @@
+*{
+    /* margin: 10px; */
+    padding: 0;
+    background-color: #1e1e1e;
+    color:white;
+}
+body{
+    padding: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.input-container{
+    display: flex;
+    flex-flow: column;
+    padding: 20px 0px ;
+
+    width: 30%;
+}
+input{
+    
+    height: 30px;    
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid grey;
+    color: #FFFF;
+    padding: 7px;
+}
+label{
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.Add-btn{
+   margin: 10px 0px;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #ffff;
+}
+.success{
+    color: green;
+    font-size: 18px;
+}
+.error{
+    color: red;
+    font-size: 18px;
+}
+.AddedEmployee-container{
+    display: flex;
+    flex-flow:column ;
+    justify-content:space-around;
+    
+}
+.updateOnUi{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid grey;
+    border-radius: 10px; 
+    padding: 10px;
+    width: 30%;
+    
+}
+.addData{
+     display: flex; 
+     gap: 10px;
+     padding:5px;
+}
+#delete-btn{
+    background-color: #ffff;
+    color: black;
+    width: 100px;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 1px solid grey;
+    
+}
